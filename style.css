@@ -1,0 +1,74 @@
+
+body{
+}
+
+header{
+    background-color: #d9d9d9;
+    color: black;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+h1{
+    font-size: 70px;
+    text-align: center;
+    margin-top: 0px;
+}
+main{
+    margin-top: 10px;
+    overflow: scroll;
+    width: auto;
+    height: 900px;
+}
+.an{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 200px;
+    row-gap: 20px; 
+     
+}
+footer{
+    background-color: black;
+
+}
+p{
+    color: white;
+    text-align: center;
+
+}
+h1,p{
+    font-family: 'Jim Nightshade';
+    font-weight: 100;              
+}
+
+
+
+.din img{
+    min-height: 5px;
+}
+
+.din {
+    margin: 0;
+    top: 900px;
+    position: relative;
+    align-self: right;
+}
+
+.din button{
+    background: transparent;
+    border: none;
+}
+
+::-webkit-scrollbar{
+    width: 0;
+}
+
+.Cart{
+    width: 150px;
+    height: 200px;
+
+}
+
+.Cart activeCart{
+    margin-left: 100px;
+}
